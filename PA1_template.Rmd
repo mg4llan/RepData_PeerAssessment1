@@ -34,7 +34,7 @@ avgStepsByInterval[which.max(avgStepsByInterval$steps), "interval"]
 
 ## Imputing missing values
 Number of missing values & histogram of steps when NA values are replaced with the interval mean:
-```{r imputedValues, echo=TRUE}
+```{r imputedValues, echo=TRUE, fig.path="figure/"}
 sum(is.na(stepsData$steps))
 
 stepsDataModified <- stepsData

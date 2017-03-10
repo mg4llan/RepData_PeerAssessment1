@@ -74,7 +74,7 @@ totalStepsModified <- tapply(stepsDataModified$steps, stepsDataModified$date, su
 hist(totalStepsModified, xlab="steps")
 ```
 
-![](PA1_template_files/figure-html/imputedValues-1.png)<!-- -->
+![](figure/imputedValues-1.png)<!-- -->
 
 ```r
 mean(totalStepsModified)
